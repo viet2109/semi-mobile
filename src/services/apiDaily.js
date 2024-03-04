@@ -1,7 +1,7 @@
 
 import loc from "./localizacao"
 
-const API_KEY = "f513209bdb0890ce3722a8b63edbb556"
+const API_KEY = "bd5e378503939ddaee76f12ad7a97608"
 const location = 'Maceió'
 export const api = `https://api.openweathermap.org/data/2.5/forecast/daily?q=${location}&units=metric&cnt=8&appid=${API_KEY}`
 
